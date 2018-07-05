@@ -1,6 +1,6 @@
 <img align="left" width="216" height="126" src="/images/lifelong-learning.jpg">
 
-<img align="right" width="216" height="126" src="/images/LifeLongLearning.jpg">
+<img align="right" width="236" height="136" src="/images/LifeLongLearning.jpg">
 
 <br />
 <br />
