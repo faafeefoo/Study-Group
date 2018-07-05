@@ -8,5 +8,5 @@
 <br />
 
 ## Who we are:
- https://github.com/faafeefoo/Study-Group <br />
+ https://github.com/faafeefoo <br />
  https://github.com/mjoyce6500
