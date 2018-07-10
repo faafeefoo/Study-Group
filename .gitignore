@@ -162,5 +162,61 @@ build-iPhoneSimulator/
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
 
+# Ignore docs files
+_gh_pages
+_site
+.ruby-version
+.node-version
+Gemfile.lock
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# grunt-html-validation
+validation-status.json
+validation-report.json
+
+# Folders to ignore
+bin
+node_modules
+tmp
+vendor
+.bundle
+
+# Chef specifics to ignore
+.chef
+.chefdk
+.kitchen
+.vagrant
+Berksfile.lock
+coverage/
+nodes/
 
 # End of https://www.gitignore.io/api/ruby,python,powershell
