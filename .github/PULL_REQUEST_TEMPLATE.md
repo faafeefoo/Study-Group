@@ -3,7 +3,6 @@
 # What issue(s) does this resolve?
 
 # What steps need to be taken?
-
 - [ ] First cut
 - [ ] Bump version number in metadata.rb
 - [ ] Add entries to changelog
