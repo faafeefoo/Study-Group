@@ -1,1 +1,3 @@
 Ask Marian for the details.
+
+While we wait for Marian, we added the GitHub app to my Slack and updated this issue.
