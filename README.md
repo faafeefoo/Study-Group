@@ -3,7 +3,9 @@
 ## For those who CL (continuously learn)
 
 ## This is where we are starting ... http://www.diveintopython3.net/
-<a href="http://www.diveintopython3.net" rel="Lesson 1">![Foo](./images/DiveIntoPython3.jpg)
+<a href="http://www.diveintopython3.net" rel="Lesson 1">![Foo](./images/DiveIntoPython3.jpg)</a>
+
+
 
 Sept 19 we have Pycharm Community installed and started with [lesson1](http://www.diveintopython3.net/your-first-python-program.html) 
 
