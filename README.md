@@ -2,8 +2,9 @@
 # Study-Group
 ## For those who CL (continuously learn)
 
+##
 ## This is where we are starting ... http://www.diveintopython3.net/
-<a href="http://www.diveintopython3.net" rel="Lesson 1">![Foo](./images/DiveIntoPython3.jpg)</a>
+<a href="http://www.diveintopython3.net"><img src = "https://github.com/mjoyce6500/Study-Group/blob/master/images/DiveIntoPython3.jpg" align="left" height="48" width="48"></a>
 
 
 
