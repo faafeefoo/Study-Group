@@ -1,7 +1,8 @@
-#Issues I ran into
+# Issues I ran into
 
 After merging the update from @faafeefoo, sync'd my clone and fork, began to edit/test in Pycharm.  
 First issue - "ModuleNotFoundError: No module named 'encodings'"  After updating Python to 3.7 the path changed and required me to update Pycharm with new path of interpreter.
+
 Second issue - "ModuleNotFoundError: No module named 'requests'"  After searching that error found need to run 
 ```
 [ADMIN]  C:\publicGitHub> pip install requests
