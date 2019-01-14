@@ -1,4 +1,4 @@
-#Issues I ran into
+# Issues I ran into
 
 After merging the update from @faafeefoo, sync'd my clone and fork, began to edit/test in Pycharm.  
 First issue - "ModuleNotFoundError: No module named 'encodings'"  After updating Python to 3.7 the path changed and required me to update Pycharm with new path of interpreter.
