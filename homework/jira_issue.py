@@ -1,6 +1,5 @@
-# need to install the packages before able to import.
+# need to install the package before able to import.
 # Please run:
-# > pip install requests
 # > pip install jira
 # at cmd line first
 
