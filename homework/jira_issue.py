@@ -4,7 +4,8 @@
 # at cmd line first
 
 from jira import JIRA
-
+import datetime
+yest = datetime.datetime.strftime(datetime.datetime.now()-datetime.timedelta(1),'%Y-%m-%d')
 # using this site as a ref: https://jira.readthedocs.io/en/master/examples.html#searching
 # This connects to a JIRA started on your local machine at http://localhost:2990/jira, which not coincidentally is the default address for a JIRA instance started from the Atlassian Plugin SDK.
 # You can manually set the JIRA server to use:
@@ -15,7 +16,7 @@ jira = JIRA(options)
 # https://jira.atlassian.com/browse/
 projects = jira.projects()
 f = open("jira_output.md","w")
-f.writelines('# JIRA JQL results \n Query last 3 issues created 1 day ago \n \n')
+f.writelines("# JIRA JQL results \n Query last 3 issues created 1 day ago " + yest + '\n \n')
 # Summaries of 3 issues created in last 1 days
 for issue in jira.search_issues('createdDate >= -1d order by created desc', maxResults=3):
     f.writelines(' https://jira.atlassian.com/browse/{}: {} \n \n '.format(issue.key, issue.fields.summary))
