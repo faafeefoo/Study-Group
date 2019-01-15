@@ -17,6 +17,6 @@ projects = jira.projects()
 
 # Summaries of 3 issues created in last 1 days
 for issue in jira.search_issues('createdDate >= -1d order by created desc', maxResults=3):
-    print('{}: {}'.format(issue.key, issue.fields.summary))
+    print('https://jira.atlassian.com/browse/{}: {}'.format(issue.key, issue.fields.summary))
 
 # struggling to write this to file, but able to print to screen!
