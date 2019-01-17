@@ -16,10 +16,10 @@ jira = JIRA(options)
 # https://jira.atlassian.com/browse/
 projects = jira.projects()
 f = open("jira_output.md","w")
-f.writelines("# JIRA JQL results \n Query last 3 issues created " + yest + '\n \n')
+f.writelines("# JIRA JQL results \n Query last 10 issues created " + yest + '\n \n')
 # Summaries of 3 issues created in last 1 days
-for issue in jira.search_issues('createdDate >= -1d order by created desc', maxResults=3):
-    f.writelines(' https://jira.atlassian.com/browse/{}: {} \n \n '.format(issue.key, issue.fields.summary))
+for issue in jira.search_issues('createdDate >= -1d order by created desc', maxResults=10):
+    f.writelines(' [{}](https://jira.atlassian.com/browse/{}) ![icon]({} "JIRA icon") [{}] _by_ **{}**: {} \n \n '.format(issue.key, issue.key, issue.fields.issuetype.iconUrl, issue.fields.issuetype.name, issue.fields.reporter.displayName, issue.fields.summary))
 f.close()
 
 # not struggling anymore :)
