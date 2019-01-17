@@ -16,7 +16,7 @@ jira = JIRA(options)
 # https://jira.atlassian.com/browse/
 projects = jira.projects()
 f = open("jira_output.md","w")
-f.writelines("# JIRA JQL results \n Query last 3 issues created 1 day ago " + yest + '\n \n')
+f.writelines("# JIRA JQL results \n Query last 3 issues created " + yest + '\n \n')
 # Summaries of 3 issues created in last 1 days
 for issue in jira.search_issues('createdDate >= -1d order by created desc', maxResults=3):
     f.writelines(' https://jira.atlassian.com/browse/{}: {} \n \n '.format(issue.key, issue.fields.summary))
