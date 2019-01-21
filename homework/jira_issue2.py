@@ -5,7 +5,7 @@
 
 from jira import JIRA
 import datetime
-yest = datetime.datetime.strftime(datetime.datetime.now()-datetime.timedelta(1),'%Y-%m-%d')
+yest = datetime.datetime.strftime(datetime.datetime.now()-datetime.timedelta(3),'%Y-%m-%d')
 # using this site as a ref: https://jira.readthedocs.io/en/master/examples.html#searching
 # This connects to a JIRA started on your local machine at http://localhost:2990/jira, which not coincidentally is the default address for a JIRA instance started from the Atlassian Plugin SDK.
 # You can manually set the JIRA server to use:
@@ -18,21 +18,11 @@ projects = jira.projects()
 f = open("jira_output2.md","w")
 f.writelines("# JIRA JQL results \n Query last 10 issues created " + yest + '\n \n')
 # Summaries of 3 issues created in last 1 days
-#f.writelines(" <table>")
-#f.writelines("   <thead>")
-#f.writelines("     <tr>")
-#f.writelines("      <td>Key</td>")
-#f.writelines("      <td>Icon</td>")
-#f.writelines("      <td>Type</td>")
-#f.writelines("      <td>Requestor</td>")
-#f.writelines("      <td>Summary</td>")
-#f.writelines("     </tr>")
-#f.writelines("   </thead>" '\n \n')
 f.writelines("| Key | Icon | Type | Requestor | Summary | \n")
 f.writelines("| --- | --- | ---| ---| --- | \n")
-for issue in jira.search_issues('createdDate >= -1d order by created desc', maxResults=5):
-    f.writelines('| [{}](https://jira.atlassian.com/browse/{}) | ![icon]({} "JIRA icon") | [{}] | _by_ **{}**: | {} | \n '.format(issue.key, issue.key, issue.fields.issuetype.iconUrl, issue.fields.issuetype.name, issue.fields.reporter.displayName, issue.fields.summary))
-f.writelines(" </table>")
-f.writelines("  f.close()")
+for issue in jira.search_issues('createdDate <= ' + yest + ' order by created desc', maxResults=5):
+    f.writelines('| [{}](https://jira.atlassian.com/browse/{}) | ![icon]({} "JIRA icon") | [{}] | _by_ **{}** | {} | \n '.format(issue.key, issue.key, issue.fields.issuetype.iconUrl, issue.fields.issuetype.name, issue.fields.reporter.displayName, issue.fields.summary))
+
+f.close()
 
 # not struggling anymore :)
