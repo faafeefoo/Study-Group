@@ -1,24 +1,12 @@
 # JIRA JQL results 
- Query last 10 issues created 2019-01-15
+ Query last 10 issues created 2019-01-19
  
- [CONFCLOUD-65433](https://jira.atlassian.com/browse/CONFCLOUD-65433) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "JIRA icon") [Suggestion] _by_ **Riku Haavisto (K15t Software)**: Custom delimiter for Confluence macro parameter with multiple values 
+[CONFSERVER-57784](https://jira.atlassian.com/browse/CONFSERVER-57784) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51493&avatarType=issuetype "JIRA icon") [Bug] _by_ **Zak Laughton** _created_ 2019-01-18T23:35:22.000+0000: Inaccurate link for Confluence Data Center Azure setup 
  
-  [BAM-20248](https://jira.atlassian.com/browse/BAM-20248) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51493&avatarType=issuetype "JIRA icon") [Bug] _by_ **Jeremy Owen**: Scheduler worker thread pool can completely block due with a thread waiting for CONNECT response from outbound proxy 
+ [BSERV-11537](https://jira.atlassian.com/browse/BSERV-11537) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "JIRA icon") [Suggestion] _by_ **Corey Steele** _created_ 2019-01-18T22:15:36.000+0000: Pushing changes to a review should not remove the needs work flag 
  
-  [CONFCLOUD-65432](https://jira.atlassian.com/browse/CONFCLOUD-65432) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "JIRA icon") [Suggestion] _by_ **Norman Atashbar**: Provide Account Type in Webhooks 
+ [CONFCLOUD-65445](https://jira.atlassian.com/browse/CONFCLOUD-65445) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "JIRA icon") [Suggestion] _by_ **Giuliano de Campos** _created_ 2019-01-18T21:39:06.000+0000: Customize Email Subject/Prefix for Confluence 
  
-  [BAM-20247](https://jira.atlassian.com/browse/BAM-20247) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51493&avatarType=issuetype "JIRA icon") [Bug] _by_ **Jeremy Owen**: Quiet period sleeps an entire PlanExec thread for the duration of the quiet period and subsequent retries 
- 
-  [CWD-5349](https://jira.atlassian.com/browse/CWD-5349) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51493&avatarType=issuetype "JIRA icon") [Bug] _by_ **Amanda Fernandez Anusuyia**: Password expiry mail notifications are sent to users with expired passwords 
- 
-  [JSDCLOUD-7906](https://jira.atlassian.com/browse/JSDCLOUD-7906) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "JIRA icon") [Suggestion] _by_ **Karen Johnstone**: Edit Comment - highlight the correct button 
- 
-  [JSDCLOUD-7905](https://jira.atlassian.com/browse/JSDCLOUD-7905) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51493&avatarType=issuetype "JIRA icon") [Bug] _by_ **Ariadna Romanenko**: Help Center announcement show message from the different language 
- 
-  [CONFSERVER-57775](https://jira.atlassian.com/browse/CONFSERVER-57775) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "JIRA icon") [Suggestion] _by_ **Nancy Lopez**: Add ability to restrict Copy/Paste functionality from within Confluence 
- 
-  [JRASERVER-68717](https://jira.atlassian.com/browse/JRASERVER-68717) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "JIRA icon") [Suggestion] _by_ **Michael Knighten**: Do not send access request email when public signup is enabled 
- 
-  [JSDCLOUD-7904](https://jira.atlassian.com/browse/JSDCLOUD-7904) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "JIRA icon") [Suggestion] _by_ **Thiago Behm**: Bulk configure request type fields 
+ [JRACLOUD-71391](https://jira.atlassian.com/browse/JRACLOUD-71391) ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "JIRA icon") [Suggestion] _by_ **Leonardo Almeida** _created_ 2019-01-18T20:48:02.000+0000: Slack integration: select multiple projects at the same time when subscribing them to channels 
  
  

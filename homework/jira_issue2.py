@@ -27,8 +27,8 @@ f.writelines("      <td>Type</td>")
 f.writelines("      <td>Requestor</td>")
 f.writelines("      <td>Summary</td>")
 f.writelines("     </tr>")
-f.writelines("   </thead>")
-for issue in jira.search_issues('createdDate >= -1d order by created desc', maxResults=10):
+f.writelines("   </thead>" '\n \n')
+for issue in jira.search_issues('createdDate >= -1d order by created desc', maxResults=5):
     f.writelines(' [{}](https://jira.atlassian.com/browse/{}) ![icon]({} "JIRA icon") [{}] _by_ **{}**: {} \n \n '.format(issue.key, issue.key, issue.fields.issuetype.iconUrl, issue.fields.issuetype.name, issue.fields.reporter.displayName, issue.fields.summary))
 f.writelines(" </table>")
 f.writelines("  f.close()")
