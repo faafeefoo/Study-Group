@@ -23,5 +23,5 @@ f.writelines("| --- | --- | ---| --- | \n")
 for issue in jira.search_issues('createdDate <= ' + yest + ' order by created desc', maxResults=5):
     f.writelines('| [{}](https://jira.atlassian.com/browse/{}) | ![icon]({} "{}") | _by_ **{}**' .format(issue.key, issue.key, issue.fields.issuetype.iconUrl, issue.fields.issuetype.name, issue.fields.reporter.displayName))
     f.writelines('| {} |\n'.format(issue.fields.summary))
-
+    f.writelines(issue.raw['fields'])
 f.close()
