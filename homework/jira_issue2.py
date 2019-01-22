@@ -5,7 +5,7 @@
 
 from jira import JIRA
 import datetime
-yest = datetime.datetime.strftime(datetime.datetime.now()-datetime.timedelta(12),'%Y-%m-%d')
+yest = datetime.datetime.strftime(datetime.datetime.now()-datetime.timedelta(2),'%Y-%m-%d')
 keep: int = '15'
 # using this site as a ref: https://jira.readthedocs.io/en/master/examples.html#searching
 # This connects to a JIRA started on your local machine at http://localhost:2990/jira, which not coincidentally is the default address for a JIRA instance started from the Atlassian Plugin SDK.
