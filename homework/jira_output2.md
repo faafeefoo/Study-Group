@@ -1,5 +1,5 @@
 # JIRA JQL results 
- Query last **10** issues created <span style = "color:blue" > 2019-01-19</span> 
+ Query last **10** issues created **2019-01-19** 
  
 | Key | Icon | Requester | Due Date | Status | Summary | 
 | --- | --- | ---| --- | --- | --- | 

@@ -17,7 +17,7 @@ jira = JIRA(options)
 # https://jira.atlassian.com/browse/
 projects = jira.projects()
 f = open("jira_output2.md","w")
-f.writelines("# JIRA JQL results \n Query last **"+keep+"** issues created <span style = \"color:blue\" > " + date1 + "</span> \n \n")
+f.writelines("# JIRA JQL results \n Query last **"+keep+"** issues created **" + date1 + "** \n \n")
 # Summaries of last 'keep' issues created in last 'date1' days
 f.writelines("| Key | Icon | Requester | Due Date | Status | Summary | \n")
 f.writelines("| --- | --- | ---| --- | --- | --- | \n")
