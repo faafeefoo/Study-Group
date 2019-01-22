@@ -1,11 +1,15 @@
 # JIRA JQL results 
- Query last 10 issues created 2019-01-18
+ Query last **10** issues created **2019-01-19** 
  
-| Key | Icon | Requestor | Summary | 
-| --- | --- | ---| --- | 
-| [JRASERVER-68722](https://jira.atlassian.com/browse/JRASERVER-68722) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "Suggestion") | _by_ **Sandra Campbell** | Custom Field contexts - make it easier to edit them | 
- | [JRACLOUD-71387](https://jira.atlassian.com/browse/JRACLOUD-71387) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51493&avatarType=issuetype "Bug") | _by_ **Thiago Behm** | When uploading an attachment, Jira automatically adds the thumbnail markdown, even if thumbnails are disabled | 
- | [CONFSERVER-57778](https://jira.atlassian.com/browse/CONFSERVER-57778) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "Suggestion") | _by_ **Darrel Lee** | I want to specify labels for the page created by the Create from Template macro | 
- | [CONFSERVER-57777](https://jira.atlassian.com/browse/CONFSERVER-57777) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "Suggestion") | _by_ **Darrel Lee** | Create from Template Macro should allow @currentUser or @remoteUser to be used in the Title field for page creation | 
- | [JRASERVER-68721](https://jira.atlassian.com/browse/JRASERVER-68721) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "Suggestion") | _by_ **Resty Bagotchay** | HIPAA Compliance | 
- 
+| Key | Icon | Requester | Due Date | Status | Summary | 
+| --- | --- | ---| --- | --- | --- | 
+| [CONFSERVER-57784](https://jira.atlassian.com/browse/CONFSERVER-57784) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51493&avatarType=issuetype "Bug") | **Zak Laughton**| None | Short Term Backlog | Inaccurate link for Confluence Data Center Azure setup |
+| [BSERV-11537](https://jira.atlassian.com/browse/BSERV-11537) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "Suggestion") | **Corey Steele**| None | Gathering Interest | Pushing changes to a review should not remove the needs work flag |
+| [CONFCLOUD-65445](https://jira.atlassian.com/browse/CONFCLOUD-65445) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "Suggestion") | **Giuliano de Campos**| None | Needs Verification | Customize Email Subject/Prefix for Confluence |
+| [JRACLOUD-71391](https://jira.atlassian.com/browse/JRACLOUD-71391) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "Suggestion") | **Leonardo Almeida**| None | Open | Slack integration: select multiple projects at the same time when subscribing them to channels |
+| [JRACLOUD-71390](https://jira.atlassian.com/browse/JRACLOUD-71390) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "Suggestion") | **Charles Meireles**| None | Open | Transition Validator to check if a field has a valid value |
+| [BSERV-11536](https://jira.atlassian.com/browse/BSERV-11536) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "Suggestion") | **PatrickP**| None | Resolved | Allow comments on lines not directly affected by a PR |
+| [ACCESS-614](https://jira.atlassian.com/browse/ACCESS-614) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51493&avatarType=issuetype "Bug") | **Joao Pedro Martinez Nunes**| None | Open | Product access is not removed from the managed accounts' profile after the product subscription ends |
+| [JRASERVER-68727](https://jira.atlassian.com/browse/JRASERVER-68727) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "Suggestion") | **Henrique Bittencourt**| None | Gathering Interest | Improve Jira applications and project types overview documentation page |
+| [JSWSERVER-19836](https://jira.atlassian.com/browse/JSWSERVER-19836) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51493&avatarType=issuetype "Bug") | **Eric Storch**| None | Needs Triage | Using FireFox and viewing an issue when you resize the screen or show in high resolution either ... is displayed or one leter is displayed per line. |
+| [JSDCLOUD-7909](https://jira.atlassian.com/browse/JSDCLOUD-7909) | ![icon](https://jira.atlassian.com/secure/viewavatar?size=xsmall&avatarId=51505&avatarType=issuetype "Suggestion") | **Rodrigo Baldasso**| None | Open | Improve the email request description |
