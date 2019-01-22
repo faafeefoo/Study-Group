@@ -23,3 +23,4 @@ Sept 27 - we studied [Chapter 2: Native Datatypes](http://www.diveintopython3.ne
  https://github.com/mjoyce6500 <br />
  https://github.com/maarmar
  
+You can be next!
